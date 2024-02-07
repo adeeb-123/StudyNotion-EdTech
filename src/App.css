@@ -1,0 +1,89 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html , body{
+    overflow-x: hidden;
+} 
+
+
+.gradiant1{
+    width: 372px;
+    height: 157px; 
+    position: absolute;
+    top: 0;
+    left: -5px;
+    /* clip-path: ellipse(19% 37%); */
+    z-index: 1;
+	border-radius: 50%;
+    background: radial-gradient(circle at 50% 50%,rgba(138, 43, 226, 1), rgba(255, 165, 0, 1), rgba(248, 248, 255, 1));
+    border-radius: 50% 22% 40% 80%;  
+	filter: blur(100px);
+    opacity: 0.2;
+   
+}
+.gradiant2{
+    width: 372px;
+    height: 157px; 
+    position: absolute;
+    top: 0;
+    left: -5px;
+    /* clip-path: ellipse(19% 37%); */
+    z-index: 1;
+	border-radius: 50%;
+    background: radial-gradient(circle at 50% 50%,rgba(31, 162, 255, 1), rgba(18, 216, 250, 1), rgba(166, 255, 203, 1));
+    border-radius: 50% 22% 40% 80%;  
+	filter: blur(100px);
+    opacity: 0.2;
+   
+    
+    
+
+}
+
+.boxShadow{
+    box-shadow: 25px 25px white,-10px -10px 60px #0a5a7276; 
+}
+
+.btnShadow1{
+    box-shadow: 2px 2px rgba(255, 255, 255, 0.895) ; 
+}
+.btnShadow2{
+    box-shadow: 2px 2px #585D69 ; 
+}
+.borderBottom{
+    border-bottom: 3px solid #585D69;
+    transition: all;
+    transition-duration: 200ms;
+}
+.borderBottom:hover{
+    border-bottom: none;
+}
+
+
+/* SECtion-2  */
+.homepage_bg{
+    background: url("../src/assets//Images/bghome.svg");
+}
+.instructorShadow{
+    box-shadow: -15px -15px white ;
+}
+.cardShadow{
+    box-shadow: 15px 15px #FFD60A ;
+}
+.aboutImg-gardiant {
+        width: 342px;
+        height: 157px; 
+        position: absolute;
+        top: 0px;
+        left: -20px;
+        /* clip-path: ellipse(19% 37%); */
+        z-index: -1;
+        border-radius: 50%;
+        background: radial-gradient(circle at 50% 50%,rgba(236, 0, 140, 1), rgba(252, 103, 103, 1));
+        border-radius: 50% 22% 40% 80%;  
+        filter: blur(100px);
+        opacity: 0.4;
+}
+
