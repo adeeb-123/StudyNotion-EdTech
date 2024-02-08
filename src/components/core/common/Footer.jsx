@@ -127,7 +127,7 @@ const Footer = () => {
           </div>
 
           <div className="text-base text-richblack-300">
-            Made by Fuzail Ahmad @2023 StudyNotion
+            Made By Adeeb and Fuzail @2023 StudyNotion
           </div>
         </div>
       </div>
